@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace PROYECTO_FINAL
 {
-    class Comunidad
+    class Gastos
     {
-        private string identificacion;
+        private string identificaion;
         private string nombre;
-        private string poblacion;
+        private string tipo_reparto;
 
-        public string Identificacion
+        public string Identificaion
         {
             get
             {
-                return identificacion;
+                return identificaion;
             }
 
             set
             {
-                identificacion = value;
+                identificaion = value;
             }
         }
 
@@ -38,16 +38,16 @@ namespace PROYECTO_FINAL
             }
         }
 
-        public string Poblacion
+        public string Tipo_reparto
         {
             get
             {
-                return poblacion;
+                return tipo_reparto;
             }
 
             set
             {
-                poblacion = value;
+                tipo_reparto = value;
             }
         }
     }

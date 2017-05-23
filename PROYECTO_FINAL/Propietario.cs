@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace PROYECTO_FINAL
 {
-    class Class2
+    class Propietario
     {
+        private string nit;
+        private string nombre;
+        private string email;
     }
 }
