@@ -12,7 +12,7 @@ namespace PROYECTO_FINAL
         private string tipo;
         private int metros_cuadrados;
         private string codigo_propietario;
-        private string lista_gastos;
+        private List<int> lista_gastos;
 
         public string Codigo_propiedad
         {
@@ -66,17 +66,6 @@ namespace PROYECTO_FINAL
             }
         }
 
-        public string Lista_gastos
-        {
-            get
-            {
-                return lista_gastos;
-            }
-
-            set
-            {
-                lista_gastos = value;
-            }
-        }
+      
     }
 }
