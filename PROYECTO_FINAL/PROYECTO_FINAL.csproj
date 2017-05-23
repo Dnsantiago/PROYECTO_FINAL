@@ -54,11 +54,15 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Gastos.cs" />
-    <Compile Include="nuevo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Propiedad.cs" />
     <Compile Include="Propietario.cs" />
+    <Compile Include="Vcuotas_propiedades.cs" />
+    <Compile Include="Vcuotas_propietario.cs" />
+    <Compile Include="Vpropiedades.cs" />
+    <Compile Include="Vpropietarios.cs" />
+    <Compile Include="Vresumen.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
