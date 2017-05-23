@@ -10,5 +10,31 @@ namespace PROYECTO_FINAL
     {
         private string abierta;
         private string bodega;
+
+        public string Abierta
+        {
+            get
+            {
+                return abierta;
+            }
+
+            set
+            {
+                abierta = value;
+            }
+        }
+
+        public string Bodega
+        {
+            get
+            {
+                return bodega;
+            }
+
+            set
+            {
+                bodega = value;
+            }
+        }
     }
 }

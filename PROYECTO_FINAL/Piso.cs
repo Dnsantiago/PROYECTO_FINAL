@@ -11,5 +11,30 @@ namespace PROYECTO_FINAL
         string vhvn;
         int cantidad_habitaciones;
 
+        public string Vhvn
+        {
+            get
+            {
+                return vhvn;
+            }
+
+            set
+            {
+                vhvn = value;
+            }
+        }
+
+        public int Cantidad_habitaciones
+        {
+            get
+            {
+                return cantidad_habitaciones;
+            }
+
+            set
+            {
+                cantidad_habitaciones = value;
+            }
+        }
     }
 }

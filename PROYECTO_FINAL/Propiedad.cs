@@ -66,6 +66,17 @@ namespace PROYECTO_FINAL
             }
         }
 
-      
+        public List<int> Lista_gastos
+        {
+            get
+            {
+                return lista_gastos;
+            }
+
+            set
+            {
+                lista_gastos = value;
+            }
+        }
     }
 }
